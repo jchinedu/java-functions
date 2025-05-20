@@ -1,8 +1,11 @@
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.BeforeEach;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 public class AutomatedTellerMachineTest {
-
-
+ @BeforeEach
+   public void setup(){
+    System.out.print("can work");
+}
  @Test
  public void testCanWithdrawFunds() { 
 Account johnsAccount = new Account("john", "0123456789", 50.00);
