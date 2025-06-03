@@ -13,7 +13,7 @@ int[][] totals = new int[numbers[0].length][numbers.length];
 	}
 public static void main(String[] args) {
 int [] [] input = {{1,2,3},{4,5,6},{7,8,9}};
-System.out.print(Arrays.deepToString(Clockwise(input))); 
+System.out.print(Arrays.deepTboString(Clockwise(input))); 
 	}
 }
         

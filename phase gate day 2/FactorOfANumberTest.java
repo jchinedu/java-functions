@@ -12,6 +12,11 @@ public void testThatthefactorofFunctionworks() {
 int expected = 2;
 assertEquals(expected, check.factorsOf(7));  
     }
+@Test
+public void testThatthefactornumbersofFunctionexist() {
+       FactorOfANumber.factorsOf(24);
+    }
+
 
     }
 

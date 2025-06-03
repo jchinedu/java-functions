@@ -8,10 +8,7 @@ public class Reverse {
 	String newWord ="";
 	for(int i = word.length()-1; i >= 0; i--) {	
 	char john = Character.toLowerCase(word.charAt(i));
-	 //john = input.nextchar();
-  	//if(ch == word.length()){
 	newWord += word.charAt(i);
-	//}
           }
 	System.out.println(newWord);
 }
